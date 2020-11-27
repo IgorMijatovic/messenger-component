@@ -1,0 +1,11 @@
+<h1>Bienvenue</h1>
+
+<p>
+  Ceci est une notification pour {{ user.email }}.
+</p>
+
+<h2>Voici votre rôle</h2>
+
+<pre>
+  {{ user.roles | json_encode }}
+</pre>
